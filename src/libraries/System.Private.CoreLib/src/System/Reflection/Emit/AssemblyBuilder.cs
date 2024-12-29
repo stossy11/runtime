@@ -87,7 +87,7 @@ namespace System.Reflection.Emit
         {
             if (!RuntimeFeature.IsDynamicCodeSupported && !t_allowDynamicCode)
             {
-                ThrowDynamicCodeNotSupported();
+                // ThrowDynamicCodeNotSupported();
             }
         }
 
